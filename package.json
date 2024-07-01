@@ -11,15 +11,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/RabiaMakhoul/nodl.git"
+        "url": "git+https://github.com/emilwidlund/nodl.git"
     },
     "keywords": [],
     "author": "Emil Widlund",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/RabiaMakhoul/nodl/issues"
+        "url": "https://github.com/emilwidlund/nodl/issues"
     },
-    "homepage": "https://github.com/RabiaMakhoul/nodl#readme",
+    "homepage": "https://github.com/emilwidlund/nodl#readme",
     "dependencies": {
         "eslint-import-resolver-typescript": "^3.5.1",
         "eslint-plugin-import": "^2.26.0"

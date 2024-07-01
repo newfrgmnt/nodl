@@ -44,7 +44,7 @@ export const useKeyboardActions = (store: CircuitStore) => {
                 callback: deselectAllNodes
             }
         ],
-        [selectAllNodes, deselectAllNodes]
+        [removeNodes, selectAllNodes, deselectAllNodes]
     );
 
     const downHandler = React.useCallback(
