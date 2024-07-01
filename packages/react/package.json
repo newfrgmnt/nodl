@@ -1,61 +1,60 @@
 {
-    "name": "@nodl/react",
-    "version": "1.0.4",
-    "description": "React implementation of the Nodl framework",
-    "main": "build/index.js",
-    "types": "build/index.d.ts",
-    "author": "Emil Widlund",
-    "license": "MIT",
-    "private": false,
-    "files": [
-        "build/*"
-    ],
-    "scripts": {
-        "build": "webpack --mode=production --devtool=inline-source-map",
-        "build:prod": "webpack --mode=production --devtool=source-map",
-        "generate:docs": "typedoc ./src/index.ts",
-        "prepare": "yarn run build:prod",
-        "test": "jest"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/RabiaMakhoul/nodl.git"
-    },
-    "keywords": [],
-    "bugs": {
-        "url": "https://github.com/RabiaMakhoul/nodl/issues"
-    },
-    "homepage": "https://github.com/RabiaMakhoul/nodl#readme",
-    "dependencies": {
-        "@nodl/core": "^1.0.9",
-        "@types/lodash": "^4.14.191",
-        "@types/react": "^18.0.26",
-        "lodash": "^4.17.21",
-        "mobx": "^6.7.0",
-        "mobx-react-lite": "^3.4.0",
-        "react-draggable": "^4.4.5",
-        "typescript": "^4.9.4"
-    },
-    "devDependencies": {
-        "@emotion/jest": "^11.10.5",
-        "@testing-library/jest-dom": "^5.16.5",
-        "@testing-library/react": "^14.0.0",
-        "@types/jest": "^29.2.5",
-        "@types/react": "^18.0.28",
-        "@types/react-dom": "^18.0.11",
-        "@types/react-test-renderer": "^18.0.0",
-        "@types/uuid": "^9.0.0",
-        "copy-webpack-plugin": "^11.0.0",
-        "jest": "^29.3.1",
-        "jest-environment-jsdom": "^29.4.3",
-        "ts-jest": "^29.0.3",
-        "ts-loader": "^9.4.2",
-        "typedoc": "^0.23.26",
-        "webpack": "^5.75.0",
-        "webpack-cli": "^5.0.1"
-    },
-    "peerDependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    }
+  "name": "@nodl/react",
+  "version": "1.0.4",
+  "description": "React implementation of the Nodl framework",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "Emil Widlund",
+  "license": "MIT",
+  "private": false,
+  "files": [
+      "build/*"
+  ],
+  "scripts": {
+      "build": "webpack --mode=production --devtool=inline-source-map",
+      "build:prod": "webpack --mode=production --devtool=source-map",
+      "generate:docs": "typedoc ./src/index.ts",
+      "prepare": "yarn run build:prod",
+      "test": "jest"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RabiaMakhoul/nodl.git"
+  },
+  "keywords": [],
+  "bugs": {
+      "url": "https://github.com/RabiaMakhoul/nodl/issues"
+  },
+  "homepage": "https://github.com/RabiaMakhoul/nodl#readme",
+  "dependencies": {
+      "@nodl/core": "file:../core",
+      "@types/lodash": "^4.14.191",
+      "@types/react": "^18.3.3",
+      "lodash": "^4.17.21",
+      "mobx": "^6.12.4",
+      "mobx-react-lite": "^3.4.0",
+      "react-draggable": "^4.4.5",
+      "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+      "@emotion/jest": "^11.10.5",
+      "@testing-library/jest-dom": "^6.4.6",
+      "@testing-library/react": "^16.0.0",
+      "@types/jest": "^29.2.5",
+      "@types/react-dom": "^18.3.0",
+      "@types/react-test-renderer": "^18.3.0",
+      "@types/uuid": "^9.0.0",
+      "copy-webpack-plugin": "^11.0.0",
+      "jest": "^29.3.1",
+      "jest-environment-jsdom": "^29.4.3",
+      "ts-jest": "^29.0.3",
+      "ts-loader": "^9.4.2",
+      "typedoc": "^0.23.26",
+      "webpack": "^5.75.0",
+      "webpack-cli": "^5.0.1"
+  },
+  "peerDependencies": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1"
+  }
 }
