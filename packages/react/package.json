@@ -19,13 +19,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/emilwidlund/nodl.git"
+        "url": "git+https://github.com/RabiaMakhoul/nodl.git"
     },
     "keywords": [],
     "bugs": {
-        "url": "https://github.com/emilwidlund/nodl/issues"
+        "url": "https://github.com/RabiaMakhoul/nodl/issues"
     },
-    "homepage": "https://github.com/emilwidlund/nodl#readme",
+    "homepage": "https://github.com/RabiaMakhoul/nodl#readme",
     "dependencies": {
         "@nodl/core": "^1.0.9",
         "@types/lodash": "^4.14.191",
